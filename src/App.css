@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Hero Section */
+
+.hero-bg-1 {
+  background-image: url(./Image/Hero-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Deatails */
+
+.deatail-bg {
+  background-image: url(./Image/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Our Service */
+
+.ourservice-bg {
+  background-image: url(./Image/bg-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Experince */
+
+.experince-bg {
+  background-image: url(./Image/bg-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Vehicle */
+
+/* Hero */
+
+.vehicle-hero-bg {
+  background-image: url(./Image/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Vehicle items */
+
+.box-item {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), #000000);
+}
+
+.box:hover {
+  .box-item {
+    height: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Service */
+
+.service-hero-bg {
+  background-image: url(./Image/intro-about-us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.about-box-item {
+  background: #ececec;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about-box:hover {
+  .about-box-item {
+    height: 75%;
   }
-  to {
-    transform: rotate(360deg);
+  .about-box-img {
+    margin-top: -33%;
   }
+}
+
+.transport-hero-bg {
+  background-image: url(./Image/intro-service-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logistic-hero-bg {
+  background-image: url(./Image/intro-service-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.towservice-hero-bg {
+  background-image: url(./Image/intro-service-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.passenger-hero-bg {
+  background-image: url(./Image/intro-service-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.vehicleser-hero-bg {
+  background-image: url(./Image/intro-service-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.st-hero-bg {
+  background-image: url(./Image/intro-service-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
