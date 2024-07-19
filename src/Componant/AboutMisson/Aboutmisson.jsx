@@ -20,7 +20,7 @@ function Aboutmisson() {
               </p>
               <div className="text-[14px] text-[#fbad58] flex items-center my-[30px]">
                 <IoIosArrowForward />
-                <Link to="/">MORE DETAILS</Link>
+                <Link to="/about">MORE DETAILS</Link>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ function Aboutmisson() {
               </p>
               <div className="text-[14px] text-[#fbad58] flex items-center my-[30px]">
                 <IoIosArrowForward />
-                <Link to="/">MORE DETAILS</Link>
+                <Link to="/about">MORE DETAILS</Link>
               </div>
             </div>
           </div>

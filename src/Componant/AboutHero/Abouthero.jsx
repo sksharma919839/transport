@@ -12,7 +12,7 @@ function Abouthero() {
             </h1>
             <div className="flex">
               <Link
-                to="/"
+                to="/transport"
                 className="text-[12px] text-[#ffffff] duration-300 transition-all hover:text-[#f3b757] cursor-pointer"
               >
                 Home

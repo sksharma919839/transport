@@ -24,7 +24,7 @@ import Storage from "./Page/Storage";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/transport",
       element: <Home />,
     },
     {
@@ -80,7 +80,7 @@ function App() {
       element: <Bustransport />,
     },
     {
-      path: "transport",
+      path: "transportt",
       element: <Transport />,
     },
     {

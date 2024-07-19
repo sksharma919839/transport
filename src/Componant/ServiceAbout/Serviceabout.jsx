@@ -18,7 +18,7 @@ function Serviceabout() {
           </div>
           <div className="flex items-center justify-center my-[80px]">
             <Link
-              to="/"
+              to="/contact"
               className="text-[17px] text-[#ffffff] bg-[#f3b757] py-[15px] px-[41px] rounded-md transition-all duration-700 hover:bg-[#e3aa4e]"
             >
               GET A QOUTE

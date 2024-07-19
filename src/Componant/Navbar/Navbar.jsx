@@ -7,7 +7,7 @@ import { IoCloseSharp } from "react-icons/io5";
 const navbarItems = [
   {
     id: 1,
-    Link: "/",
+    Link: "/transport",
     name: "HOME",
   },
   {
@@ -41,7 +41,7 @@ function Navbar() {
       <div>
         <div className="h-[74px] flex items-center px-[30px] bg-[#ffffff] w-[100%] fixed justify-between z-[2]">
           <div>
-            <Link to="/">
+            <Link to="/transport">
               <img src={Logo} alt="" />
             </Link>
           </div>
@@ -79,23 +79,23 @@ function Navbar() {
             )}
           </div>
           {/* Responsive Design */}
-          {/* <ul
+          <ul
             className={
               open
-                ? "lg:hidden fixed left-0 top-[7px] w-[100%] h-full bg-[#0f0f0f] ease-in-out"
-                : " ease-in-out w-[50%] top-[-100%] fixed bottom-0"
+                ? "lg:hidden fixed left-0 top-[74px] w-[100%] h-full bg-[#0f0f0f] ease-in-out"
+                : " ease-in-out w-[50%] left-[-100%] fixed bottom-0"
             }
           >
             <div>
-              <ul className="md:mx-[320px] sm:mx-[250px] mx-[100px]">
+              <ul className="text-center">
                 {navbarItems.map((items) => (
                   <li key={items.id} className="py-[15px]">
                     <NavLink
                       className={({ isActive }) =>
                         `${
                           isActive
-                            ? "text-[#f4b757] text-[15px] py-[10px] border-b border-b-[#f4b757]"
-                            : "text-[#ffffff] transition-all duration-300 text-[15px] hover:text-[#f4b757] hover:border-b hover:border-b-[#f4b757] py-[10px]"
+                            ? "text-[#f4b757] text-[15px] py-[10px] text-center border-b border-b-[#f4b757]"
+                            : "text-[#ffffff] transition-all duration-300 text-center text-[15px] hover:text-[#f4b757] hover:border-b hover:border-b-[#f4b757] py-[10px]"
                         }`
                       }
                       to={items.Link}
@@ -106,7 +106,7 @@ function Navbar() {
                 ))}
               </ul>
             </div>
-          </ul> */}
+          </ul>
         </div>
       </div>
     </>

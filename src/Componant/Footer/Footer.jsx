@@ -29,12 +29,12 @@ const footAbout = [
 const footNavigation = [
   {
     id: 1,
-    link: "/",
+    link: "/transport",
     name: "Home",
   },
   {
     id: 2,
-    link: "/transport",
+    link: "/transportt",
     name: "Transport",
   },
   {

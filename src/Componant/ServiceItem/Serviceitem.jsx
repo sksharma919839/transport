@@ -48,7 +48,7 @@ const serviceItems = [
     img: s6,
     h5: "Transport",
     p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio explicabo repudiandae sed, ratione nisi amet quibusdam blanditiis excepturi aperiam, velit fugit maxime libero, labore reprehenderit!",
-    link: "/transport",
+    link: "/transportt",
   },
 ];
 function Serviceitem() {

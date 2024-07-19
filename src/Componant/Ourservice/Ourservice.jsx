@@ -54,7 +54,7 @@ function Ourservice() {
                 </p>
                 <Link
                   className="text-[15px] text-center text-[#fbad58] ml-[75px]"
-                  to="/"
+                  to="/transport"
                 >
                   READ MORE
                 </Link>

@@ -36,7 +36,7 @@ function Ofservice() {
             <img src={items.img} className="h-[240px] w-[340px]" alt="" />
             <h4 className="text-[24px] mt-[20px]">{items.h}</h4>
             <p className="text-[18px] text-[#727272] mb-[30px]">{items.p}</p>
-            <Link className="text-[#fbad58]" to="/">
+            <Link className="text-[#fbad58]" to="/transport">
               READ MORE
             </Link>
           </div>
